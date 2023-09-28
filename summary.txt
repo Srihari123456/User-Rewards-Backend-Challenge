@@ -1,0 +1,54 @@
+[1] Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+Language Chosen:
+	Java
+Tools and Libraries Utilized:
+	Spring Boot, H2 Database, JPA, and Maven.
+
+Reasons:
+
+1. Facilitating Testing and Debugging - Spring Boot offers robust support for unit testing, making it a suitable choice for ensuring the code's reliability and correctness.
+
+2. Enhanced Scalability - The microservices architecture inherent in Spring Boot promotes the separation of concerns, making debugging more straightforward and enhancing the system's scalability.
+
+3. Meeting Critical Deadlines - Given the time constraint of four days for this task, Spring Boot was a logical choice due to its ability to expedite development, allowing us to meet critical deadlines efficiently.
+
+4. Leveraging Prior Experience - With 1.5 years of industry experience as a backend developer predominantly using Spring Boot, I aimed to leverage my existing skills and strengths in this task.
+
+5. Regarding the H2 Database - The choice of the H2 Database, an efficient in-memory database, was made to facilitate the review process. Reviewers can seamlessly test the functionality without the need to download additional database software like Oracle or MySQL, streamlining the evaluation process.
+
+============================================================================================================
+[2] What are the advantages and disadvantages of your solution?
+
+Advantages:
+
+1. While designing any system, as a software developer my top considerations are its scalablity and code
+reusability, in addition to ensuring the requirements mentioned are implemented. It has been designed and implemented to avoid future redesign with modified requirements.
+
+Eg: The generic RewardsDto has been used in multiple instances to facilitate data transfer. The SpendPointsDto was resorted to instead of pasing points as a query parameter since, I anticipate more details to be sent to that function in the future. By using the SpendPointsDto is easier to accommodate further changes in a single class.
+
+2. Necessary Logging - In order to monitor if the functionality is working as expected, only the logs are
+available in production environment. Hence, appropriate logs are placed in the necessary files to track
+the functionality.
+
+4. Relevant and Easy to understand nomenclature - It is of utmost importance to write code which even other developers can understand, since greater things can be achieved when working with a team. This aids in onboarding new team members and troubleshooting issues too. The naming of the files, variables and functions are ensured to denote their fucntionality.
+
+Disadvantages:
+1. Usage of In-Memory H2 Database - While H2 Db satisfies the purpose of this task, while developing production ready code it is advisable to use a more robust dbms like Oracle / MySql which aids in the large scale management of data.
+
+==============================================================================================
+[3] What has been a favorite school/personal project thus far? What about it that challenged you?
+
+One of my most cherished projects to date is the "Enhanced Automobile Safety System with Real-time Monitoring and Assistance," which I had the privilege to work on during my academic journey as part of a software engineering course. While I had gained valuable insights from my industry experience regarding the software development lifecycle, this project marked my first foray into this fascinating realm during my undergraduate days.
+
+This project, guided by my professor Dr. Raghuveera, presented a unique set of challenges and learning opportunities that demanded a blend of technical prowess, independent thinking, and proactiveness. Our initial task was to dissect a complex problem: designing an automobile safety system capable of adapting to a multitude of scenarios. Being an unexplored domain for our team, and the need for innovation became evident from the start.
+
+Rather than following conventional paths, we explored out of the box solutions which catered to satisfying the requirements for both bikes and cars. This independent thinking led us to consider a loosely coupled and reusable system architecture. We knew this approach was more ambitious, but it was also more forward-thinking, aligning with our goal of pushing the boundaries of what was traditionally expected from such systems.
+
+Being a proactive and collaborative team member, I was exposed to a plethora of ideas through the open discussions and brainstorming sessions, and also ensured that everyone's ideas were considered. This inclusive approach boosted our collective problem-solving capabilities.
+
+Effective communication was paramount, given the intricacies of our system and the diversity of our team members' backgrounds. Regular meetings, detailed documentation, and transparent reporting became our tools for success. These communication skills not only facilitated smooth collaboration but also showcased my adept communication abilities.
+
+Our hard work and innovative approach culminated in receiving recognition as the "Best Project under Industrial IoT" during a National Level Symposium attended by over 3000 participants. This accolade not only validated our efforts but also underscored the relevance and impact of our project in the broader technological landscape.
+
+In summary, this project represents a pivotal moment in my journey, showcasing my ability to tackle complex challenges, collaborate effectively, and deliver innovative solutions. It serves as a testament to my passion for software architecture and my commitment to excellence in every endeavor.
