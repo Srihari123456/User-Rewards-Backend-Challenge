@@ -1,28 +1,28 @@
-package com.example.demo.dto;
+package fetch.backend.exercise.dto;
 
 import java.time.LocalDateTime;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class AddRewardsDto {
+public class RewardsDto {
 	
 	
 	private String payer;
 	private Long points;
 	private LocalDateTime timestamp;
 	
-	public AddRewardsDto() {
+	public RewardsDto() {
 	
 	}
 	
-	public AddRewardsDto(String payer, Long points) {
+	public RewardsDto(String payer, Long points) {
 		super();
 		this.payer = payer;
 		this.points = points;
 	}
 
-	public AddRewardsDto(String payer, Long points, LocalDateTime timestampDetails) {
+	public RewardsDto(String payer, Long points, LocalDateTime timestampDetails) {
 		super();
 		this.payer = payer;
 		this.points = points;

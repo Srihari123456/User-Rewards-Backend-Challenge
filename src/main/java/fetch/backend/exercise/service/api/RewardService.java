@@ -1,16 +1,16 @@
-package com.example.demo.service.api;
+package fetch.backend.exercise.service.api;
 
 import java.util.Map;
 
 import org.springframework.http.ResponseEntity;
 
-import com.example.demo.dto.AddRewardsDto;
-import com.example.demo.dto.SpendPointsDto;
+import fetch.backend.exercise.dto.RewardsDto;
+import fetch.backend.exercise.dto.SpendPointsDto;
 
 public interface RewardService {
 	public Map<String, Long> getBalancePointsPerPayer();
 	
-	public void addPoints(AddRewardsDto addRewardsDto);
+	public void addPoints(RewardsDto rewardsDto);
 	
 	public ResponseEntity<Object> spendPoints(SpendPointsDto spendPointsDto);
 }

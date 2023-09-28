@@ -1,4 +1,4 @@
-package com.example.demo.domain;
+package fetch.backend.exercise.domain;
 
 
 
@@ -31,21 +31,16 @@ public class RewardEntity {
     @Column(name = "TIMESTAMP_DETAILS")
     private LocalDateTime timestampDetails;
 
-    @Column(name = "ACTIVE_IND")
-    private Boolean activeInd;
-    
-    
 
 	public RewardEntity() {
 		
 	}
 
-	public RewardEntity(String payer, Long points, LocalDateTime timestampDetails, Boolean activeInd) {
+	public RewardEntity(String payer, Long points, LocalDateTime timestampDetails) {
 		super();
 		this.payer = payer;
 		this.points = points;
 		this.timestampDetails = timestampDetails;
-		this.activeInd = activeInd;
 	}
 
 	public Integer getRewardId() {
@@ -79,14 +74,5 @@ public class RewardEntity {
 	public void setTimestampDetails(LocalDateTime timestampDetails) {
 		this.timestampDetails = timestampDetails;
 	}
-
-	public Boolean getActiveInd() {
-		return activeInd;
-	}
-
-	public void setActiveInd(Boolean activeInd) {
-		this.activeInd = activeInd;
-	}
-    
     
 }

@@ -1,4 +1,4 @@
-package com.example.demo.dto;
+package fetch.backend.exercise.dto;
 
 public class SpendPointsDto {
 	private Long points;
