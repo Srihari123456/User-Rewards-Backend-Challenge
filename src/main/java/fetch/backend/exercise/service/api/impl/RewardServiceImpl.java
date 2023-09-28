@@ -1,4 +1,4 @@
-package fetch.backend.exercise.service.api;
+package fetch.backend.exercise.service.api.impl;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -16,6 +16,7 @@ import fetch.backend.exercise.domain.RewardEntity;
 import fetch.backend.exercise.dto.RewardsDto;
 import fetch.backend.exercise.dto.SpendPointsDto;
 import fetch.backend.exercise.repo.RewardRepository;
+import fetch.backend.exercise.service.api.RewardService;
 
 @Service
 public class RewardServiceImpl implements RewardService{

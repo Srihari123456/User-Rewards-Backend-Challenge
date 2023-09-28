@@ -3,7 +3,7 @@ import fetch.backend.exercise.domain.RewardEntity;
 import fetch.backend.exercise.dto.RewardsDto;
 import fetch.backend.exercise.dto.SpendPointsDto;
 import fetch.backend.exercise.repo.RewardRepository;
-import fetch.backend.exercise.service.api.RewardServiceImpl;
+import fetch.backend.exercise.service.api.impl.RewardServiceImpl;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
