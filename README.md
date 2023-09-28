@@ -7,6 +7,6 @@ Install Eclipse and use File->Import->Git->Projects from Git to clone this repo.
 Build the project and run the UserRewardsApplication.java file as a Java Application
 
 The service (backend code) would be up and running at localhost:8000
-To test the functionality make the call to localhost:8000/add , localhost:8000/spendPoints, localhost:8000/balance a needed.
+To test the functionality make the call to localhost:8000/add , localhost:8000/spendPoints, localhost:8000/balance as needed.
 
 Reach out to me for any clarifications!
